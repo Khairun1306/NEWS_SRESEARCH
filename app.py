@@ -3,9 +3,9 @@
 import streamlit as st
 from langchain_config import get_summary, get_chain
 
-st.set_page_config(page_title="Equity Research News Tool", page_icon="📰")
+st.set_page_config(page_title="Research News Tool", page_icon="📰")
 
-st.title(" Equity Research News Tool")
+st.title(" Research News Tool")
 st.write("Enter a company, topic, or ticker to get AI-summarised news.")
 
 # ── Sidebar ────────────────────────────────────────────────────────────────────

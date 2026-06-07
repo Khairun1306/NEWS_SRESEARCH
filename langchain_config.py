@@ -74,7 +74,7 @@ def get_summary(query: str, page_size: int = 5) -> str:
 
 # ── LangChain prompt & chain ───────────────────────────────────────────────────
 prompt = ChatPromptTemplate.from_template("""
-You are an AI assistant helping an equity research analyst.
+You are an AI assistant helping an research analyst.
 
 Query:
 {query}
