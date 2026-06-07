@@ -1,9 +1,9 @@
 readme_content = """
-# Equity Research News Tool
+# Research News Tool
 
 ## Project Overview
 
-This project is an AI-powered Equity Research News Tool built using LangChain, Streamlit, NewsAPI, Groq, and Gemini.
+This project is an AI-powered  Research News Tool built using LangChain, Streamlit, NewsAPI, Groq, and Gemini.
 
 The application allows users to:
 
@@ -19,7 +19,7 @@ The application allows users to:
 
 - NewsAPI Integration
 - AI-Powered News Summarization
-- Equity Research Analysis
+- Research Analysis
 - Groq LLaMA 3.3 Support
 - Gemini 1.5 Flash Support
 - Streamlit User Interface
@@ -52,7 +52,7 @@ NEWS_RESEARCH/
 ## Technologies Used
 
 - Python
-- Streamlit
+- StreamlitS
 - LangChain
 - NewsAPI
 - Groq API
@@ -97,7 +97,7 @@ streamlit run app.py
 2. NewsAPI fetches relevant articles.
 3. Articles are summarized.
 4. LangChain sends the summaries to the selected LLM.
-5. The model generates an equity research analysis.
+5. The model generates an research analysis.
 6. Results are displayed in Streamlit.
 
 ---
