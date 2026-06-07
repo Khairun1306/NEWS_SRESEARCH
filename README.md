@@ -129,6 +129,23 @@ streamlit run app.py
 
 ---
 
+## Screenshots
+
+### Home Page
+![Home Page](screenshots/home_page.png)
+
+### Raw News Bullets
+![Raw News](screenshots/raw_news.png)
+
+### AI Analysis
+![AI Analysis](screenshots/ai_analysis.png)
+
+### Investment Recommendation and report button
+![Recommendation](screenshots/recommendation_report.png)
+
+
+---
+
 ## Author
 
 Created as part of an AI/GenAI Internship Project.
