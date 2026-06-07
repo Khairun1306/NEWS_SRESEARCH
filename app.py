@@ -5,7 +5,7 @@ from langchain_config import get_summary, get_chain
 
 st.set_page_config(page_title="Research News Tool", page_icon="📰")
 
-st.title(" Research News Tool")
+st.title("News Research Tool")
 st.write("Enter a company, topic, or ticker to get AI-summarised news.")
 
 # ── Sidebar ────────────────────────────────────────────────────────────────────
@@ -35,19 +35,19 @@ if st.button("Get News Summary"):
                     "summaries": summaries
                 })
 
-                st.subheader("📋 Raw News Bullets")
+                st.subheader("Raw News Bullets")
                 st.text(summaries)
 
-                st.subheader("🤖 AI Analysis")
+                st.subheader("AI Analysis")
                 st.write(response)
 
                 st.download_button(
-                    label="📥 Download Report",
+                    label="Download Report",
                     data=response,
                     file_name="news_analysis.txt",
                     mime="text/plain"
                 )
 
     else:
-        st.warning("Please enter a query first.")
+        st.warning("Please genter a query first.")
     
