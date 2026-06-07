@@ -138,10 +138,9 @@ streamlit run app.py
 ![Raw News](screenshots/raw_news.png)
 
 ### AI Analysis
-![AI Analysis](screenshots/ai_analysis.png)
-
+![AI Analysis](screenshots/AI_Analysis.png)
 ### Investment Recommendation and report button
-![Recommendation](screenshots/recommendation_report.png)
+![Recommendation](screenshots/Recommendation_report.png)
 
 
 ---
